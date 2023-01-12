@@ -32,8 +32,8 @@ top of this section.
 
 EXTENSION                                       *flagship-Hoist()*
 
-The function Hoist() is may be called from from a User Flags autocommand to
-register a flag:
+The function Hoist() may be called from a User Flags autocommand to register
+a flag:
 >
     autocmd User Flags call Hoist({scope}, ..., {flag})
 <
